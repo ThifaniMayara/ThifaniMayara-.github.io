@@ -1,0 +1,20 @@
+.logo {
+    color: #fff;
+    font-family: 'Bebas Neue';
+    font-size: 2.3rem;
+    padding-left: 2.4rem;
+    padding-top: 1rem;
+    text-shadow: 4px 4px 5px #800000;
+}
+
+.pesquisar {
+    color: #000;
+    background-color: #800000;
+    border-color: #000;
+}
+
+.pesquisar:hover {
+    background-color: #000;
+    border-color: #800000;
+    color: #800000;
+}

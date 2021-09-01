@@ -1,0 +1,19 @@
+main {
+    background:  #383838ef;
+    padding-bottom: 2rem;
+}
+
+p{
+    color: #fff;
+    font-size: .8rem;
+}
+
+.secao{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 1.71em;
+    padding-top: 1rem;
+    transition: 3s;
+}
+

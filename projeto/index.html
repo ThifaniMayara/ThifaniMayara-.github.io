@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maydeflix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas Neue">
+    <link rel="shortcut icon" type="assets/image/x-icon" href="img/5067MAYDEFLIX.ico">
+    <link rel="stylesheet" href="assets/css/principal/style.css">
+    <link rel="stylesheet" href="assets/css//principal/cabecalho.css">
+    <link rel="stylesheet" href="assets/css//principal/carrossel.css">
+    <link rel="stylesheet" href="assets/css//principal/cards.css">
+    <link rel="stylesheet" href="assets/css//principal/rodape.css">
+    <link rel="stylesheet" href="assets/css//principal/responsividade.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <h1 class="navbar-brand logo">MAYDEFLIX</h1>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar filme" aria-label="Pesquisar filme">
+            <button class="btn btn-outline-success pesquisar" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+      <section class="carrossel">
+          <div id="carouselExampleCaptions" class="carousel slide carrossel" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/ultimo-mercenario.png" class="d-block w-100 carrossel__imagem--1" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="carrossel__titulo">O ÚLTIMO MERCENÁRIO</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/cacador-rainha-do-gelo.png" class="d-block w-100 carrossel__imagem--2" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="carrossel__titulo">O CAÇADOR E A RAINHA DO GELO</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/Awake.png" class="d-block w-100 carrossel__imagem--3" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="carrossel__titulo">AWAKE</h3>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+    <main>
+      <p class="secao">Sugeridos para você</p> 
+      <section class="card__filmes">
+          <div class="card cartao">
+            <img src="assets/img/viver-duas-vezes.png" class="card-img-top card__filmes--imagem" alt="...">
+            <h5 class="card-title card__filmes--nome">Viver duas vezes</h5><br>
+            <a class="card__filmes--trailer" href="https://youtu.be/Ibh7C1bsbWE">Ver o trailer</a>
+          </div>
+
+          <div class="card cartao">
+            <img src="assets/img/que-mal-eu-fiz-a-deus.png" class="card-img-top card__filmes--imagem" alt="...">
+            <h5 class="card-title card__filmes--nome">Que mal eu fiz a Deus?</h5><br>
+            <a class="card__filmes--trailer" href="https://youtu.be/SRa67esFRnY?t=10">Ver o trailer</a>
+          </div>
+
+          <div class="card cartao" >
+            <img src="assets/img/passageiro-acidental.png" class="card-img-top card__filmes--imagem" alt="...">
+              <h5 class="card-title card__filmes--nome">Passageiro acidental</h5><br>
+              <a class="card__filmes--trailer" href="https://youtu.be/FD_8G3sAKRI">Ver o trailer</a>
+        </div>
+        
+        <div class="card cartao">
+          <img src="assets/img/ate-o-ceu.png" class="card-img-top card__filmes--imagem" alt="...">
+              <h5 class="card-title card__filmes--nome">Até o céu</h5>
+              <a class="card__filmes--trailer" href="https://youtu.be/U8QjDVZRI8A">Ver o trailer</a>
+        </div>
+
+        <div class="card cartao">
+          <img src="assets/img/inverno-em-ny.png" class="card-img-top card__filmes--imagem" alt="...">
+              <h5 class="card-title card__filmes--nome">Um inverno em Nova York</h5>
+              <a class="card__filmes--trailer" href="https://youtu.be/TeH9-3gmOEM">Ver o trailer</a>
+        </div>
+
+        <div class="card cartao">
+          <img src="assets/img/eu-tu-ela.png" class="card-img-top card__filmes--imagem" alt="...">
+              <h5 class="card-title card__filmes--nome">Eu, tu e ela</h5><br>
+              <a class="card__filmes--trailer" href="https://youtu.be/3d6vzMFCE68">Ver o trailer</a>
+        </div>
+
+        <div class="card cartao">
+          <img src="assets/img/13-assassinos.png" class="card-img-top card__filmes--imagem" alt="...">
+              <h5 class="card-title card__filmes--nome">13 assassinos</h5><br>
+              <a class="card__filmes--trailer" href="https://youtu.be/tY7p88LFdcs?t=6">Ver o trailer</a>
+        </div>
+
+      <div class="card cartao">
+        <img src="assets/img/o-destino-de-uma-nacao.png" class="card-img-top card__filmes--imagem" alt="...">
+            <h5 class="card-title card__filmes--nome">O destino de uma nação</h5><br>
+            <a class="card__filmes--trailer" href="https://youtu.be/2bTSm8311jQ?t=12">Ver o trailer</a>
+      </div>
+
+      <div class="card cartao">
+        <img src="assets/img/Awake.png" class="card-img-top card__filmes--imagem" alt="...">
+            <h5 class="card-title card__filmes--nome">Awake</h5><br>
+            <a class="card__filmes--trailer" href="https://youtu.be/k42HgNZemCQ">Ver o trailer</a>
+      </div>
+
+      <div class="card cartao">
+        <img src="assets/img/amor-com-data-marcada.png" class="card-img-top card__filmes--imagem" alt="...">
+            <h5 class="card-title card__filmes--nome">Amor com data marcada</h5><br>
+            <a class="card__filmes--trailer" href="https://youtu.be/hPRCcjMU5J4">Ver o trailer</a>
+    </div>
+      </section>
+
+      <p class="secao">Em alta</p>
+      <section class="card__filmes">
+        <div class="card cartao">
+          <img src="assets/img/orgulho-e-preconceito.png" class="card-img-top card__filmes--imagem" alt="...">
+              <h5 class="card-title card__filmes--nome">Orgulho e preconceito</h5><br>
+              <a class="card__filmes--trailer" href="https://youtu.be/Y6XneqkfD3c">Ver o trailer</a>
+      </div>
+
+      <div class="card cartao">
+        <img src="assets/img/razao-e-sensibilidade.png" class="card-img-top card__filmes--imagem" alt="...">
+            <h5 class="card-title card__filmes--nome">Razão e sensibilidade</h5><br>
+            <a class="card__filmes--trailer" href="https://youtu.be/YoT6kPFLVw0?t=5">Ver o trailer</a>
+      </div>
+
+      <div class="card cartao">
+        <img src="assets/img/sete-vidas.png" class="card-img-top card__filmes--imagem" alt="...">
+            <h5 class="card-title card__filmes--nome">Sete vidas</h5><br>
+            <a class="card__filmes--trailer" href="https://youtu.be/zXkJW7ar0AE">Ver o trailer</a>
+      </div>
+
+      <div class="card cartao">
+        <img src="assets/img/o-espelho-tem-duas-faces.png" class="card-img-top card__filmes--imagem" alt="...">
+            <h5 class="card-title card__filmes--nome">O espelho tem duas faces</h5><br>
+            <a class="card__filmes--trailer" href="https://youtu.be/XKYrKshJg-M?t=10">Ver o trailer</a>
+      </div>
+
+      <div class="card cartao">
+        <img src="assets/img/django-livre.png" class="card-img-top card__filmes--imagem" alt="...">
+            <h5 class="card-title card__filmes--nome">Django livre</h5><br>
+            <a class="card__filmes--trailer" href="https://youtu.be/tivv135aGbc">Ver o trailer</a>
+      </div>
+
+      <div class="card cartao">
+        <img src="assets/img/gladiador.png" class="card-img-top card__filmes--imagem" alt="...">
+            <h5 class="card-title card__filmes--nome">Gladiador</h5><br>
+            <a class="card__filmes--trailer" href="https://youtu.be/AVPCzVHLAYY">Ver o trailer</a>
+      </div>
+
+      <div class="card cartao">
+        <img src="assets/img/steve-jobs.png" class="card-img-top card__filmes--imagem" alt="...">
+            <h5 class="card-title card__filmes--nome">Steve Jobs</h5><br>
+            <a class="card__filmes--trailer" href="https://youtu.be/vggakOhjzAM">Ver o trailer</a>
+      </div>
+      <div class="card cartao">
+        <img src="assets/img/a-chegada.png" class="card-img-top card__filmes--imagem" alt="...">
+            <h5 class="card-title card__filmes--nome">A chegada</h5><br>
+            <a class="card__filmes--trailer" href="https://youtu.be/CkSZgeoPftg">Ver o trailer</a>
+      </div>
+
+      <div class="card cartao">
+        <img src="assets/img/boy-erased-uma-verdade-anulada.png" class="card-img-top card__filmes--imagem"  alt="...">
+            <h5 class="card-title card__filmes--nome">Boy erased: uma verdade anulada</h5>
+            <a class="card__filmes--trailer" href="https://youtu.be/tsBTlUG1Mck">Ver o trailer</a>
+      </div>
+
+      <div class="card cartao">
+        <img src="assets/img/o-livro-de-eli.png" class="card-img-top card__filmes--imagem" alt="...">
+            <h5 class="card-title card__filmes--nome">O livro de Eli</h5><br>
+            <a class="card__filmes--trailer" href="https://youtu.be/t3qJj_ljctE">Ver o trailer</a>
+      </div>
+      </section>
+
+      <p class="secao"> Populares</p>
+      <section class="card__filmes">
+        <div class="card cartao">
+          <img src="assets/img/o-protetor.png" class="card-img-top card__filmes--imagem" alt="...">
+              <h5 class="card-title card__filmes--nome">O protetor</h5><br>
+              <a class="card__filmes--trailer" href="https://youtu.be/-aZPYxQGViQ">Ver o trailer</a>
+        </div>
+      
+      <div class="card cartao">
+              <img src="assets/img/tropa-de-elite.png" class="card-img-top card__filmes--imagem" alt="...">
+                  <h5 class="card-title card__filmes--nome">Tropa de elite</h5><br>
+                  <a class="card__filmes--trailer" href="https://youtu.be/uZBiNJQxtGw">Ver o trailer</a>
+          </div>
+      
+      <div class="card cartao">
+              <img src="assets/img/o-cavaleiro-das-trevas.png" class="card-img-top card__filmes--imagem" alt="...">
+                  <h5 class="card-title card__filmes--nome">O cavaleiro das trevas</h5><br>
+                  <a class="card__filmes--trailer" href="https://youtu.be/a-PVBsmiB0Y?t=9">Ver o trailer</a>
+          </div>
+      
+      <div class="card cartao">
+              <img src="assets/img/o-menino-que-descobriu-o-vento.png" class="card-img-top card__filmes--imagem" alt="...">
+                  <h5 class="card-title card__filmes--nome">O menino que descobriu o vento</h5>
+                  <a class="card__filmes--trailer" href="https://youtu.be/j37O0R-bSOE">Ver o trailer</a>
+          </div>
+      
+      <div class="card cartao">
+              <img src="assets/img/shrek.png" class="card-img-top card__filmes--imagem" alt="...">
+                  <h5 class="card-title card__filmes--nome">Shrek</h5><br>
+                  <a class="card__filmes--trailer" href="https://youtu.be/CwXOrWvPBPk">Ver o trailer</a>
+          </div>
+      
+      <div class="card cartao">
+              <img src="assets/img/shrek2.png" class="card-img-top card__filmes--imagem" alt="...">
+                  <h5 class="card-title card__filmes--nome">Shrek II</h5><br>
+                  <a class="card__filmes--trailer" href="https://youtu.be/V6X5ti4YlG8?t=4">Ver o trailer</a>
+          </div>
+      
+      <div class="card cartao">
+              <img src="assets/img/em-ritmo-de-fuga.png" class="card-img-top card__filmes--imagem" alt="...">
+                  <h5 class="card-title card__filmes--nome">Em ritmo de fuga</h5><br>
+                  <a class="card__filmes--trailer" href="https://youtu.be/S25X-gFxX9s">Ver o trailer</a>
+          </div>
+      
+      <div class="card cartao">
+              <img src="assets/img/the-old-guard.png" class="card-img-top card__filmes--imagem" alt="...">
+                  <h5 class="card-title card__filmes--nome">The old guard</h5><br>
+                  <a class="card__filmes--trailer" href="https://youtu.be/x4_EAlRLY_E">Ver o trailer</a>
+          </div>
+      
+      <div class="card cartao">
+              <img src="assets/img/mad-max-estrada-da-furia.png" class="card-img-top card__filmes--imagem" alt="...">
+                  <h5 class="card-title card__filmes--nome">Mad Max: estrada da fúria</h5><br>
+                  <a class="card__filmes--trailer" href="https://youtu.be/QpsLW5EdAdA">Ver o trailer</a>
+          </div>
+      
+        <div class="card cartao">
+              <img src="assets/img/matrix.png" class="card-img-top card__filmes--imagem" alt="...">
+                  <h5 class="card-title card__filmes--nome">Matrix</h5><br>
+                  <a class="card__filmes--trailer" href="https://youtu.be/2KnZac176Hs">Ver o trailer</a>
+          </div>
+      
+      <div class="card cartao">
+              <img src="assets/img/gladiador.png" class="card-img-top card__filmes--imagem" alt="...">
+                  <h5 class="card-title card__filmes--nome">Gladiador</h5><br>
+                  <a class="card__filmes--trailer" href="https://youtu.be/AVPCzVHLAYY">Ver o trailer</a>
+          </div>
+      
+      <div class="card cartao">
+              <img src="assets/img/castelo-animado.png" class="card-img-top card__filmes--imagem" alt="...">
+                  <h5 class="card-title card__filmes--nome">O castelo animado</h5><br>
+                  <a class="card__filmes--trailer" href="https://youtu.be/PWhl-xGTraE">Ver o trailer</a>
+          </div>
+      
+      <div class="card cartao">
+              <img src="assets/img/kung-fu-panda.png" class="card-img-top card__filmes--imagem" alt="...">
+                  <h5 class="card-title card__filmes--nome">Kung Fu Panda</h5><br>
+                  <a class="card__filmes--trailer" href="https://youtu.be/40IBUnOZoC4">Ver o trailer</a>
+          </div>
+      
+      <div class="card cartao">
+              <img src="assets/img/viagem-de-chihiro.png" class="card-img-top card__filmes--imagem" alt="...">
+                  <h5 class="card-title card__filmes--nome">A viagem de Chihiro</h5><br>
+                  <a class="card__filmes--trailer" href="https://youtu.be/SgZI655GgHk">Ver o trailer</a>
+          </div>
+      
+      <div class="card cartao">
+              <img src="assets/img/o-impossivel.png" class="card-img-top card__filmes--imagem alt="...">
+                  <h5 class="card-title card__filmes--nome">O impossível</h5><br>
+                  <a class="card__filmes--trailer" href="https://youtu.be/N6W5jbWq_h0?t=6">Ver o trailer</a>
+          </div>
+      
+      <div class="card cartao">
+              <img src="assets/img/creed-nascido-para-lutar.png" class="card-img-top card__filmes--imagem" alt="...">
+                  <h5 class="card-title card__filmes--nome">Creed: nascido para lutar</h5><br>
+                  <a class="card__filmes--trailer" href="https://youtu.be/661sQScpXJc">Ver o trailer</a>
+          </div>
+      
+      <div class="card cartao">
+              <img src="assets/img/dose-dupla.png" class="card-img-top card__filmes--imagem" alt="...">
+                  <h5 class="card-title card__filmes--nome">Dose dupla</h5><br>
+                  <a class="card__filmes--trailer" href="https://youtu.be/qD2Ygt1Muvg?t=10">Ver o trailer</a>
+          </div>
+      
+      <div class="card cartao">
+              <img src="assets/img/meu-amigo-totoro.png" class="card-img-top card__filmes--imagem" alt="...">
+                  <h5 class="card-title card__filmes--nome">Meu amigo Totoro</h5><br>
+                  <a class="card__filmes--trailer" href="https://youtu.be/Ww1QZo-UrmM?t=5">Ver o trailer</a>
+          </div>
+      <div class="card cartao">
+              <img src="assets/img/os-donos-da-rua.png" class="card-img-top card__filmes--imagem" alt="...">
+                  <h5 class="card-title card__filmes--nome">Os donos da rua</h5><br>
+                  <a class="card__filmes--trailer" href="https://youtu.be/NbNNoS5Rgf0">Ver o trailer</a>
+          </div>
+      
+      <div class="card cartao">
+              <img src="assets/img/a-chegada.png" class="card-img-top card__filmes--imagem" alt="...">
+                  <h5 class="card-title card__filmes--nome">A chegada</h5><br>
+                  <a class="card__filmes--trailer" href="https://youtu.be/CkSZgeoPftg">Ver o trailer</a>
+          </div>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <h1 class="rodape__logo">MAYDEFLIX</h1>
+     <nav class="rodape__contato">
+      <p class="rodape__secao">Fale conosco</p>
+      <a class="rodape__link" href="https://api.whatsapp.com/send?phone=5541995485147">WhatsApp</a><br>
+      <a class="rodape__link" href="https://www.facebook.com/thita.mayara">Facebook</a><br>
+      <a class="rodape__link" href="https://www.instagram.com/thi_maydev/">Instagram</a><br>
+     </nav>
+
+     <nav class="rodape__sugestoes">
+      <p class="rodape__secao">Sugestões</p>
+      <a class="rodape__link" href="https://forms.gle/p13dnHCi3EMZykbe9">Sugira um trailer</a><br>
+      <a class="rodape__link" href="https://forms.gle/KsfiC7HmPeeasDpCA">Sugira uma página</a><br>
+      <a class="rodape__link" href="https://forms.gle/D8oUPLZzzT3L2eRt8">O que podemos melhorar?</a><br>
+     </nav>
+
+     <nav class="rodape__bugs">
+      <p class="rodape__secao">Ajuda</p>
+      <a class="rodape__link" href="https://forms.gle/D8oUPLZzzT3L2eRt8">Reportar bug</a><br>
+      <a class="rodape__link" href="https://forms.gle/D8oUPLZzzT3L2eRt8">Acessibilidade</a><br>
+      <a class="rodape__link" href="https://api.whatsapp.com/send?phone=5541995485147">Contato direto</a><br>
+     </nav>
+    </footer>
+    <div class="rodape__copyright">
+      &copy; Thifani Maydev & Maydeflix | Todos os direitos reservados
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</html>

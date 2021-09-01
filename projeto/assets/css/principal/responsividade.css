@@ -1,0 +1,40 @@
+@media only screen and (max-width: 420px) {
+    .logo {
+        padding-left: .13rem;
+    }
+
+    .carrossel__imagem--1, .carrossel__imagem--2 , .carrossel__imagem--3 {
+        height: 200px;
+        object-fit: cover;
+        object-position: 55% 20%;
+    }
+    .cartao {
+        padding-left: .5rem;
+        padding-right: 0;
+        width: 7.5rem;
+    }
+    .card__filmes--imagem {
+        height: 90px;
+    }
+    .card__filmes--nome {
+        font-size: .5rem;
+    }
+    .rodape__logo {
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 3rem;
+        padding-top: 4rem;
+    }
+    .rodape__secao {
+        padding-bottom: 0rem;
+        padding-top: .5rem;
+    }
+    .rodape__contato, .rodape__sugestoes, .rodape__bugs {
+        padding-left: 1rem;
+    }
+    .rodape__link{
+        font-size: .5rem;
+        padding-top: 0;
+        line-height: 1px;
+    }
+}

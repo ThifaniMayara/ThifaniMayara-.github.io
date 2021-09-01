@@ -1,0 +1,29 @@
+
+
+@media only screen and (max-width: 420px) {
+    .logo {
+        font-size: 2.3rem;
+        text-align: center;
+    }
+    h1 {
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+    p {
+        font-size: .7rem;
+      
+    }
+    .login {
+        padding: 0;
+    }
+    .login__user--imagem {
+        width: 5rem;
+    }
+
+    .login__user--nome {
+        font-size: .72rem;
+    }
+    .citacao {
+        padding: 0;
+    }
+}

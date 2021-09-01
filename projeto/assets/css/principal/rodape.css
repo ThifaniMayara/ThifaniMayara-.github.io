@@ -1,0 +1,54 @@
+/*RODAPÉ*/
+
+.rodape {
+    background-color: #161718;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+}
+
+.rodape__logo {
+    color: #fff;
+    font-family: 'Bebas Neue';
+    font-size: 3rem;
+    padding-left: 8rem;
+    padding-top: 4rem;
+    text-shadow: 4px 4px 5px #800000;
+}
+
+.rodape__contato, .rodape__sugestoes, .rodape__bugs {
+    padding-left: 6rem;
+}
+
+/*.rodape__sugestoes{
+    padding-left: 5rem;
+}*/
+
+.rodape__secao{
+    color: #fff;
+    font-weight: bold;
+    font-size: .8rem;
+    padding-top: 1.5rem;
+}
+
+.rodape__link{
+    color: #ffffffd5;
+    font-size: .7rem;
+    text-decoration: none;
+    line-height: 5px;
+}
+
+.rodape__link:hover {
+    color: #fc7e7eb9;
+    text-shadow: 1px 1px 2px #00000079;
+}
+
+.rodape__copyright{
+    background-color: #161718;
+    font-size: .6rem;
+    color: #ffffff9d;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+}
